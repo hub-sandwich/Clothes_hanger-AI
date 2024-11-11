@@ -125,24 +125,36 @@ https://www.zaivhub.com/ko/yolov5<br/>
 <br/>
 <br/>
 4. 클래스를 추가합니다.
-
+![hanger3](https://github.com/user-attachments/assets/f145c1a0-38e0-4b51-aeba-33a0fab0de96)
+<br/>
+<br/>
 5. format9를 추가합니다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![hanger4](https://github.com/user-attachments/assets/fa0421ed-32db-4429-919b-aea30539bc62)
+<br/>
+<br/>
+6. DarkLabel.exe를 실행시키고, 생성한 클래스를 적용합니다.
+![hanger5](https://github.com/user-attachments/assets/004ffdb1-3071-4b49-bc87-92a9f9bd718d)
+<br/>
+<br/>
+7. **Open Video** 버튼을 눌러 영상을 열고, 프레임 이미지를 저장하기 위해 **as Images** 버튼을 눌러 저장합니다.
+![hanger6](https://github.com/user-attachments/assets/989c5b67-43f2-401d-937a-23d5a953aa83)
+<br/>
+<br/>
+8. 수집한 영상 및 이미지를 DarkLabel 에서 image와 label로 추출합니다.
+![hanger7](https://github.com/user-attachments/assets/aecc4b16-47fb-4c6b-8665-7e8e0a1b9c3c)
+<br/>
+<br/>
+## Data.yaml 파일 수정 및 데이터 모델 다운
+1. yolov5-master 폴더에 Darklabels를 다운받을 때 얻은 data.yml파일을 수정해줍니다.
+![hanger8](https://github.com/user-attachments/assets/13cf6fd0-6703-4284-af73-c3a1d45ef21e)
+<br/>
+<br/>
+2. 아래 링크를 통해 yolov5n.pt 파일을 다운받습니다.<br/>
+https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt
+<br/>
+<br/>
+3. 위 과정들을 통해 얻은 결과물입니다.
+![hanger9](https://github.com/user-attachments/assets/39ae98cd-6666-4f72-89d7-b61bccffc201)
 
 
 

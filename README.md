@@ -121,7 +121,12 @@ https://www.zaivhub.com/ko/yolov5<br/>
 <br/>
 <br/>
 3. darklabel.yml 파일을 메모장으로 열어줍니다.
+![hanger2](https://github.com/user-attachments/assets/bfa23ef4-8d95-48ad-a19a-15a537bf0b31)
+<br/>
+<br/>
+4. 클래스를 추가합니다.
 
+5. format9를 추가합니다.
 
 
 

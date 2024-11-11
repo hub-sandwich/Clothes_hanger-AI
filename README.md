@@ -154,8 +154,79 @@ https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt
 <br/>
 <br/>
 3. 위 과정들을 통해 얻은 결과물입니다.
-![hanger9](https://github.com/user-attachments/assets/39ae98cd-6666-4f72-89d7-b61bccffc201)
 
+![hanger9](https://github.com/user-attachments/assets/39ae98cd-6666-4f72-89d7-b61bccffc201)
+<br/>
+<br/>
+## Google Colaboratory 를 사용하여 코드를 작성해줍니다.
+
+1.구글 드라이브와 연동합니다.
+![colaboratory1](https://github.com/user-attachments/assets/d1171595-b8d1-443f-a4dc-88f75d9187e4)
+<br/>
+<br/>
+2. yolov5를 설치합니다.
+
+![colaboratory2](https://github.com/user-attachments/assets/c3daf345-13d3-4d1e-b158-3bdd1c479484)
+<br/>
+<br/>
+3. train 폴더와 valid 폴더를 생성합니다.
+![스크린샷 2024-11-11 235918](https://github.com/user-attachments/assets/4e7af51b-e78b-4c75-9362-d41163d85789)
+<br/>
+<br/>
+4. 경로에 맞게 파일을 옮겨줍니다.
+<br/>
+<br/>
+images 폴더와 labels 폴더 위치
+<br/>
+![11](https://github.com/user-attachments/assets/1496cfc0-2a9a-4ec6-bc3d-c1d2e6cd4153)
+<br/>
+data.yaml 파일 위치
+<br/>
+![12](https://github.com/user-attachments/assets/75189fb0-d82e-4d70-b05e-7edc992c2f0c)
+<br/>
+yolov5n.pt 모델 위치
+<br/>
+![13](https://github.com/user-attachments/assets/bfac26b3-ca43-4713-abf3-ae9ca272fa08)
+<br/>
+<br/>
+<br/>
+5. 검증 데이터를 생성합니다.
+<br/>
+![14](https://github.com/user-attachments/assets/860ee778-a751-4ecd-ac74-a359d8033e40)
+<br/>
+<br/>
+python train.py --img 640 --batch 16 --epochs 50 --data .\data\data.yaml --weights yolov5s.pt
+<br/>
+<br/>
+## 학습 시작
+1.필요한 라이브러리를 추가합니다.
+![15](https://github.com/user-attachments/assets/f3376f82-7e16-4cc0-a627-e28fd5472efe)
+<br/>
+<br/>
+2.아래 명령어 실행 시 학습을 시작합니다.
+<br/>
+![16](https://github.com/user-attachments/assets/82cfb491-e364-41ea-9be4-f785b44d4136)
+<br/>
+<br/>
+## 학습 결과물 확인
+학습 돌린 라벨 결과물 train_batch
+    
+<img src= "https://github.com/user-attachments/assets/dfd919e0-7812-43dd-94fc-0716447848c9" width="450" height="450"/> 
+<img src= "https://github.com/user-attachments/assets/5834e370-9288-465b-a91a-e79516376321" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/5cf34557-6705-4c28-b66b-3601928fb02d" width="450" height="450"/> 
+<img src= "https://github.com/user-attachments/assets/e2abd56a-d28c-4781-a31d-e20c09f64d5f" width="450" height="450"/>
+            
+<img src= "https://github.com/user-attachments/assets/35c4fd26-ce42-4695-9d35-5767e7fdaef3" width="900" height="450"/>
+      
+<img src= "https://github.com/user-attachments/assets/d59a479d-3e04-48c3-b95a-887e991fb71e" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/f03543dc-eadf-43b9-9264-fa8914144b9d" width="450" height="450"/>
+     
+<img src= "https://github.com/user-attachments/assets/9663cccd-1638-4426-b9a9-12876ca90d31" width="900" height="450"/>
+
+## 학습 결과물 검증
+1. 아래 명령어를 통해 검증을 할 수 있습니다.<br/>
+python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 이미지의 경로] --img 640 --conf 0.8<br/>
+![17](https://github.com/user-attachments/assets/e84ff179-7b00-49b2-8650-cfc50e7fcf6e)
 
 
 

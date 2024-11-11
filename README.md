@@ -102,8 +102,24 @@ In some cases, real-time processing required for real-world applications is diff
 - A variety of learning data about hangers, image recognition, object detection, etc. are needed.<br/>
 
 ## 영상 취득 방법
-1. 가정집, 공장등에 있는 옷걸이를 직접 카메라로 촬영하여 영상 및 이미지를 취득합니다.
-2. 추가로 다양한 옷걸이에 대한 이미지를 획득하고 싶으면 서칭을 통해 획득합니다.
+- 가정집, 공장등에 있는 옷걸이를 직접 카메라로 촬영하여 영상 및 이미지를 취득합니다.
+- 
+![hanger640px](https://github.com/user-attachments/assets/86c4c1bd-53a0-40b6-a5c9-b2e4a6701a52)
+
+- 추가로 다양한 옷걸이에 대한 이미지를 획득하고 싶으면 서칭을 통해 획득합니다.
+<br/>
+1. 해상도를 640 x 640으로 학습하기 위해 위하여 영상 및 이미지를 640 x 640에 맞게 잘라줍니다.<br/>
+https://online-video-cutter.com/ko/resize-video<br/>
+해당 사이트를 통해 쉽게 자를 수 있습니다.
+<br/>
+<br/>
+
+2. DarkLabel
+수집한 영상을 DarkLabel 에서 이미지로 추출합니다.<br/>
+https://www.zaivhub.com/ko/yolov5<br/>
+해당 사이트를 통하여 DarkLabel 프로그램과 data.yaml 파일을 다운 받은 후에 사용하여 수집한 영상 및 이미지에 대해 라벨이 달린 이미지로 변환이 가능합니다.
+<br/>
+
 
 
 

@@ -227,7 +227,9 @@ python train.py --img 640 --batch 16 --epochs 50 --data .\data\data.yaml --weigh
 1. 아래 명령어를 통해 검증을 할 수 있습니다.<br/>
 python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 이미지의 경로] --img 640 --conf 0.8<br/>
 ![17](https://github.com/user-attachments/assets/e84ff179-7b00-49b2-8650-cfc50e7fcf6e)
+<br/>
 
-
-
+[![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy) [Hanger - Google Drive](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy)
+<br/>
+<br/>
 

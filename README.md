@@ -29,10 +29,9 @@ Hanger detection<br/>
 예를 들어, 매장 직원들이 수작업으로 옷걸이 수를 확인하거나 정리할 필요가 없다면 시간을 절약할 수 있을 뿐 아니라, 손님들이 제품을 고르고 놓는 과정에서 발생할 수 있는 혼란도 줄일 수 있습니다.
 <br/>
 ***
-- This project began with the goal of automating certain tasks through the detection of hangers in a physical space. 
-For example, it can be used to manage the placement of hangers in stores, public places, or at home, or to check the status of certain items by detecting whether they are hanging. 
-With recent advances in computer vision and artificial intelligence technologies, object detection and image recognition are becoming more and more commonplace, making it possible to reduce human effort and improve task accuracy.
-<br/>
+- Hanger plays an important role in organizing clothes neatly at a clothing store or at home.
+But how convenient would it be if there was a system that automatically detects hangers for efficient organization?
+For example, if store employees don't have to manually count or organize hangers, this not only saves time, but also reduces confusion that may arise when customers choose and place products.
 
 ## General description of the current project
 ✅ 프로젝트 전반적인 설명<br/>

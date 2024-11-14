@@ -227,6 +227,13 @@ python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 
 ![17](https://github.com/user-attachments/assets/e84ff179-7b00-49b2-8650-cfc50e7fcf6e)
 <br/>
 
+아래 자료는 데이터 셋을 학습시켜 옷걸이인식을 테스트한 영상과 이미지입니다.
+https://drive.google.com/drive/u/1/folders/1Dszc60V5G3CHSQ0zd0aF-G_srDMLxVWs
+https://github.com/user-attachments/assets/aed84c35-b15b-4b20-8e12-62bd7c3eff4e
+
+![hanger_fin (1)](https://github.com/user-attachments/assets/1f22ce21-5f82-4d8e-8339-05a683ee51fa)
+![unnamed (1)](https://github.com/user-attachments/assets/d381516f-18b4-4052-afdb-673cdfedfa1c)
+
 [![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy) [Hanger - Google Drive](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy)
 <br/>
 <br/>

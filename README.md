@@ -20,7 +20,7 @@
 
 ## Title
 ✅ 주제<br/>
-옷걸이 감지<br/>
+가정옷걸이 감지 코드<br/>
 Hanger detection<br/>
 
 ## Opening background information

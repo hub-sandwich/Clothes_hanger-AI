@@ -207,13 +207,23 @@ python train.py --img 640 --batch 16 --epochs 50 --data .\data\data.yaml --weigh
 <br/>
 <br/>
 ## 학습 결과물 확인
-학습 돌린 라벨 결과물 train_batch
-    
+학습 돌린 라벨 결과물<br/>
+첫 번째 학습 데이터셋<br/>
 <img src= "https://github.com/user-attachments/assets/dfd919e0-7812-43dd-94fc-0716447848c9" width="450" height="450"/> 
 <img src= "https://github.com/user-attachments/assets/5834e370-9288-465b-a91a-e79516376321" width="450" height="450"/>
 <img src= "https://github.com/user-attachments/assets/5cf34557-6705-4c28-b66b-3601928fb02d" width="450" height="450"/> 
 <img src= "https://github.com/user-attachments/assets/e2abd56a-d28c-4781-a31d-e20c09f64d5f" width="450" height="450"/>
-            
+<br/>
+<br/>
+두 번째 학습 데이터셋<br/>
+<img src= "https://github.com/user-attachments/assets/63835b0a-a90f-480d-a939-bae4a40f35ad" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/c0f0448b-95d9-4efb-84c8-e1bed22860cc" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/08d15ef2-ebc7-4238-b730-d35dff152770" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/12a6cb17-a388-4f08-b2bf-75ffd56ceb1c" width="450" height="450"/>
+<img src= "https://github.com/user-attachments/assets/8515caa2-34e9-4818-9212-55de4231c025" width="450" height="450"/>
+
+
+
 <img src= "https://github.com/user-attachments/assets/35c4fd26-ce42-4695-9d35-5767e7fdaef3" width="900" height="450"/>
       
 <img src= "https://github.com/user-attachments/assets/d59a479d-3e04-48c3-b95a-887e991fb71e" width="450" height="450"/>
@@ -229,12 +239,14 @@ python detect.py --weight runs/train/exp/weights/best.pt --source [테스트할 
 
 아래 자료는 데이터 셋을 학습시켜 옷걸이인식을 테스트한 영상과 이미지입니다.
 https://drive.google.com/drive/u/1/folders/1Dszc60V5G3CHSQ0zd0aF-G_srDMLxVWs
-https://github.com/user-attachments/assets/aed84c35-b15b-4b20-8e12-62bd7c3eff4e
 
 ![hanger_fin (1)](https://github.com/user-attachments/assets/1f22ce21-5f82-4d8e-8339-05a683ee51fa)
 ![unnamed (1)](https://github.com/user-attachments/assets/d381516f-18b4-4052-afdb-673cdfedfa1c)
+<br/><br/>
+아래는 데이터 셋 링크입니다.<br/>
+[![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy) [HangerDataSet1 - Google Drive](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy)
 
-[![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy) [Hanger - Google Drive](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy)
+[![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1PDb7UvKxC7rHQvV2npQWZAbZaD9qr1pZ) [HangerDataSet2 - Google Drive](https://drive.google.com/drive/u/1/folders/1PDb7UvKxC7rHQvV2npQWZAbZaD9qr1pZ)
 <br/>
 <br/>
 

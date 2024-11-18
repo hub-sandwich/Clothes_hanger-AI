@@ -196,10 +196,13 @@ python detect.py --weight runs/train/exp/weights/best.pt --source [Path to image
 <br/>
 
 The data below are videos and images that tested hanger recognition by learning the data set.
-https://drive.google.com/drive/u/1/folders/1Dszc60V5G3CHSQ0zd0aF-G_srDMLxVWs
+[https://drive.google.com/drive/u/1/folders/1Dszc60V5G3CHSQ0zd0aF-G_srDMLxVWs](https://drive.google.com/drive/u/1/folders/1njvKxfqWYTfXqmK4b9JIsXS1LjuBdEmH)
 
 ![hanger_fin (1)](https://github.com/user-attachments/assets/1f22ce21-5f82-4d8e-8339-05a683ee51fa)
+![hanger_fac (2)](https://github.com/user-attachments/assets/0bb43d5f-9277-4c31-94a3-1ff576b42d0e)
+![test2 (1) (1)](https://github.com/user-attachments/assets/ed9adf82-e91c-4142-817e-320ff9439227)
 ![unnamed (1)](https://github.com/user-attachments/assets/d381516f-18b4-4052-afdb-673cdfedfa1c)
+
 <br/><br/>
 Below is a link to the data set.<br/>
 [![Google Drive](https://img.shields.io/badge/googledrive-4285F4?logo=Google%20Drive&logoColor=yellow)](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy) [HangerDataSet1 - Google Drive](https://drive.google.com/drive/u/1/folders/1nidFfqTUAautHjpQHn3mh8XRgNCAxoPy)
